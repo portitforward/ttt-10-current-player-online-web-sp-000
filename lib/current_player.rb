@@ -7,7 +7,7 @@ end
 
 def current_player(board)
 #  turn_count(board) % 2 == 0 ? puts "O" : puts "X"
-  if turn_count(board) % 2 == 0 && turn_count(board) > 0
+  if turn_count(board) % 2 == 0 && turn_count(board) > 1
     return "O"
   else
     return "X"
